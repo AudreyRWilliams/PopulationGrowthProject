@@ -20,7 +20,7 @@ Open Terminal and run:
 - cd ~/PopulationGrowthProject
 - git init
 - npm init -y
-### You now have a package.json
+<b>You now have a package.json
 
 ## 2-Install Express (Node 14 compatible)
 Install Express 4 (it works with Node 14 and should be used if you need to avoid modern packages that require Node 16+):
