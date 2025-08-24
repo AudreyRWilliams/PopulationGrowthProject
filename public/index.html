@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Population Growth Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Population Growth Simulator</h1>
+
+    <div class="card">
+      <form id="simForm">
+        <label>Model:
+          <select id="model">
+            <option value="exponential">Exponential</option>
+            <option value="logistic">Logistic</option>
+          </select>
+        </label>
+        <label>Initial population (P0): <input id="P0" type="number" value="100" step="1" /></label>
+        <label>Rate (r): <input id="r" type="number" value="0.05" step="0.01" /></label>
+        <label>Carrying capacity (K, logistic): <input id="K" type="number" value="1000" step="1" /></label>
+        <label>Steps: <input id="steps" type="number" value="50" /></label>
+        <div style="margin-top:.5rem;">
+          <button class="btn primary" type="submit">Run Simulation</button>
+          <button class="btn" id="resetBtn" type="button">Reset</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="card">
+      <h3>Chart</h3>
+      <canvas id="chart" width="800" height="300"></canvas>
+    </div>
+
+    <div class="card">
+      <h3>Table</h3>
+      <div id="tableWrap"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
