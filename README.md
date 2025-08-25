@@ -28,7 +28,7 @@ Install Express 4 (it works with Node 14 and should be used if you need to avoid
 - npm install express@4
 
 ## 3-Create project files
-You'll want to create the following file structrure (relative to ~/PopulationGrowthProject):
+You'll want to create the following file structrure (relative to ~/PopulationGrowthProject): <br>
 <img width="225" height="216" alt="Screen Shot 2025-08-24 at 7 39 12 PM" src="https://github.com/user-attachments/assets/a23b69b3-7068-4dcb-8608-475a87afbbe5" />
 
 - server.js (Express backend, simulation API)
