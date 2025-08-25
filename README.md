@@ -43,11 +43,15 @@ You'll want to create the following file structrure (relative to ~/PopulationGro
 In Terminal (project root):
 - node server.js <br>
 
-You should see ..... Server listening: http://localhost:3000. 
+You should see ..... `Server listening: http://localhost:3000` 
 
-Open a browser and go to http://localhost:3000. The UI should load, run a default simulation, show a chart and a small table. Try switching to Logistic and adjust parameters.
+Open a browser and go to `http://localhost:3000`. The UI should load, run a default simulation, show a chart and a small table. Try switching to Logistic and adjust parameters.
 
 You can also run CLI simulation: <br>
 <img width="410" height="135" alt="Screen Shot 2025-08-24 at 8 07 41 PM" src="https://github.com/user-attachments/assets/fc61ff73-cd0f-4922-b599-e5e104552377" />
 
 ## 5-Commit and push to GitHub
+1. Create a new repository on GitHub (via github.com -> New repo). Note the URL, e.g. https://github.com/AudreyRWilliams/PopulationGrowthProject.git.
+
+2. In Terminal (project root): <br>
+<img width="696" height="127" alt="Screen Shot 2025-08-24 at 8 19 01 PM" src="https://github.com/user-attachments/assets/57a4f0c1-c098-42f1-bfe2-b3bc832a22fd" />
