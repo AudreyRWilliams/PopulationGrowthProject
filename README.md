@@ -43,7 +43,7 @@ You'll want to create the following file structrure (relative to ~/PopulationGro
 In Terminal (project root):
 - node server.js <br>
 
-You should see Server listening: http://localhost:3000. 
+You should see ..... Server listening: http://localhost:3000. 
 
 Open a browser and go to http://localhost:3000. The UI should load, run a default simulation, show a chart and a small table. Try switching to Logistic and adjust parameters.
 
