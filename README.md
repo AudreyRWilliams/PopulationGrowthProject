@@ -28,5 +28,25 @@ Install Express 4 (it works with Node 14 and should be used if you need to avoid
 - npm install express@4
 
 ## 3-Create project files
+You'll want to create the following file structrure (relative to ~/PopulationGrowthProject):
+<img width="225" height="216" alt="Screen Shot 2025-08-24 at 7 39 12 PM" src="https://github.com/user-attachments/assets/a23b69b3-7068-4dcb-8608-475a87afbbe5" />
+
+- server.js (Express backend, simulation API)
+- simulate.js (CLI simulation — run in Terminal)
+- public/index.html (frontend UI)
+- public/app.js (frontend logic + simple canvas plot)
+- public/style.css (simple styles)
+- Create .gitignore in project root:
+<img width="129" height="125" alt="Screen Shot 2025-08-24 at 8 04 12 PM" src="https://github.com/user-attachments/assets/e32ad97c-49f0-4273-b3e5-addf495935ab" />
+
 ## 4-Start the server & test locally
+In Terminal (project root):
+- node server.js <br>
+You should see Server listening: http://localhost:3000. 
+
+Open a browser and go to http://localhost:3000. The UI should load, run a default simulation, show a chart and a small table. Try switching to Logistic and adjust parameters.
+
+You can also run CLI simulation:
+<img width="410" height="135" alt="Screen Shot 2025-08-24 at 8 07 41 PM" src="https://github.com/user-attachments/assets/fc61ff73-cd0f-4922-b599-e5e104552377" />
+
 ## 5-Commit and push to GitHub
