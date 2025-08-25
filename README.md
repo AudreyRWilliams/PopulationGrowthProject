@@ -42,11 +42,12 @@ You'll want to create the following file structrure (relative to ~/PopulationGro
 ## 4-Start the server & test locally
 In Terminal (project root):
 - node server.js <br>
+
 You should see Server listening: http://localhost:3000. 
 
 Open a browser and go to http://localhost:3000. The UI should load, run a default simulation, show a chart and a small table. Try switching to Logistic and adjust parameters.
 
-You can also run CLI simulation:
+You can also run CLI simulation: <br>
 <img width="410" height="135" alt="Screen Shot 2025-08-24 at 8 07 41 PM" src="https://github.com/user-attachments/assets/fc61ff73-cd0f-4922-b599-e5e104552377" />
 
 ## 5-Commit and push to GitHub
